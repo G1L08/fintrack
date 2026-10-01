@@ -55,21 +55,72 @@ export function formatearMonto(monto: number, moneda: Moneda = 'MXN'): string {
 
 export const categoriaConfig: Record<
   Categoria,
-  { etiqueta: string; emoji: string; color: string; bg: string }
+  { etiqueta: string; color: string; bg: string; border: string }
 > = {
-  comida: { etiqueta: 'Comida', emoji: '🍔', color: 'text-orange-400', bg: 'bg-orange-500/10' },
-  transporte: { etiqueta: 'Transporte', emoji: '🚗', color: 'text-blue-400', bg: 'bg-blue-500/10' },
-  vivienda: { etiqueta: 'Vivienda', emoji: '🏠', color: 'text-purple-400', bg: 'bg-purple-500/10' },
-  entretenimiento: { etiqueta: 'Entretenimiento', emoji: '🎬', color: 'text-pink-400', bg: 'bg-pink-500/10' },
-  salud: { etiqueta: 'Salud', emoji: '💊', color: 'text-red-400', bg: 'bg-red-500/10' },
-  educacion: { etiqueta: 'Educación', emoji: '📚', color: 'text-indigo-400', bg: 'bg-indigo-500/10' },
-  compras: { etiqueta: 'Compras', emoji: '🛍️', color: 'text-amber-400', bg: 'bg-amber-500/10' },
-  salario: { etiqueta: 'Salario', emoji: '💼', color: 'text-emerald-400', bg: 'bg-emerald-500/10' },
-  freelance: { etiqueta: 'Freelance', emoji: '💻', color: 'text-teal-400', bg: 'bg-teal-500/10' },
-  inversion: { etiqueta: 'Inversión', emoji: '📈', color: 'text-cyan-400', bg: 'bg-cyan-500/10' },
+  comida: {
+    etiqueta: 'Comida',
+    color: 'text-orange-400',
+    bg: 'bg-orange-500/10',
+    border: 'border-orange-500/30',
+  },
+  transporte: {
+    etiqueta: 'Transporte',
+    color: 'text-blue-400',
+    bg: 'bg-blue-500/10',
+    border: 'border-blue-500/30',
+  },
+  vivienda: {
+    etiqueta: 'Vivienda',
+    color: 'text-purple-400',
+    bg: 'bg-purple-500/10',
+    border: 'border-purple-500/30',
+  },
+  entretenimiento: {
+    etiqueta: 'Entretenimiento',
+    color: 'text-pink-400',
+    bg: 'bg-pink-500/10',
+    border: 'border-pink-500/30',
+  },
+  salud: {
+    etiqueta: 'Salud',
+    color: 'text-red-400',
+    bg: 'bg-red-500/10',
+    border: 'border-red-500/30',
+  },
+  educacion: {
+    etiqueta: 'Educación',
+    color: 'text-indigo-400',
+    bg: 'bg-indigo-500/10',
+    border: 'border-indigo-500/30',
+  },
+  compras: {
+    etiqueta: 'Compras',
+    color: 'text-amber-400',
+    bg: 'bg-amber-500/10',
+    border: 'border-amber-500/30',
+  },
+  salario: {
+    etiqueta: 'Salario',
+    color: 'text-emerald-400',
+    bg: 'bg-emerald-500/10',
+    border: 'border-emerald-500/30',
+  },
+  freelance: {
+    etiqueta: 'Freelance',
+    color: 'text-teal-400',
+    bg: 'bg-teal-500/10',
+    border: 'border-teal-500/30',
+  },
+  inversion: {
+    etiqueta: 'Inversión',
+    color: 'text-cyan-400',
+    bg: 'bg-cyan-500/10',
+    border: 'border-cyan-500/30',
+  },
 };
 
 // Presupuesto
+
 export const presupuestoConfig: Record<
   EstadoPresupuesto,
   { etiqueta: string; color: string; bg: string }

@@ -212,11 +212,11 @@ export default function NewTransactionModal({
                     type="button"
                     onClick={() => setCategoria(cat)}
                     className={cn(
-                      'text-xs px-2.5 py-1 rounded-md border transition-colors',
-                      activa
-                        ? [config.bg, config.color, config.border]
-                        : 'border-[var(--border)] bg-[var(--background)] text-[var(--muted)] hover:text-[var(--foreground)]'
-                    )}
+  'text-xs px-2.5 py-1 rounded-md border transition-colors',
+  activa
+    ? `${config.bg} ${config.color} ${config.border}`
+    : 'border-[var(--border)] bg-[var(--background)] text-[var(--muted)] hover:text-[var(--foreground)]'
+)}
                   >
                     {config.etiqueta}
                   </button>
