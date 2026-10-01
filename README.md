@@ -16,8 +16,7 @@
 
 <br>
 
-<!-- Reemplaza con tu URL al deployar / Replace with your URL after deploying -->
-**[🌐 Demo en vivo · Live demo](https://fintrack-tu-usuario.vercel.app)**
+**[ Demo en vivo · Live demo](https://fintrack-t3sd.vercel.app)**
 
 <br>
 
